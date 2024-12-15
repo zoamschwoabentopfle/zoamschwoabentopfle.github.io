@@ -4781,7 +4781,7 @@ input, select, textarea {
 
 /* Rainbow text animation */
 #animated-title .rainbow-text {
-    font-size: 3rem; /* Match title size */
+    font-size: 2rem; /* Match title size */
     background-image: linear-gradient(
         90deg,
         red,
