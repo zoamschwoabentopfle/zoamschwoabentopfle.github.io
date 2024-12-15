@@ -4774,7 +4774,7 @@ input, select, textarea {
 #animated-title {
     position: relative;
     text-align: center;
-    font-size: 3rem; /* Adjust size */
+    font-size: 2rem; /* Adjust size */
     display: inline-block; /* Ensure sparks align with the entire text */
     width: auto; /* Let the width fit the content */
 }
