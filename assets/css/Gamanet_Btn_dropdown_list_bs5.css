@@ -1,0 +1,113 @@
+.gamanet-btn-icon-neutral {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff !important;
+  border-radius: 0.5rem;
+  outline: none;
+  border: 0.0625rem solid transparent !important;
+}
+
+.gamanet-btn-icon-neutral:hover {
+  background-color: #EAE9E9;
+  border-color: transparent !important;
+}
+
+.gamanet-btn-icon-neutral:hover > img, .gamanet-btn-icon-neutral:focus > img, .gamanet-btn-icon-neutral:active > img {
+  filter: invert(33%) sepia(1%) saturate(2292%) hue-rotate(349deg) brightness(96%) contrast(74%);
+}
+
+.gamanet-btn-icon-neutral:focus, .gamanet-btn-icon-neutral:active, .gamanet-btn-icon-neutral:focus-visible {
+  background-color: #FAFAFA !important;
+  outline: 0.25rem solid #EAE9E9 !important;
+  border-color: transparent!important;
+}
+
+.gamanet-btn-icon-neutral:disabled, .gamanet-btn-icon-neutral.disabled {
+  background-color: #fff !important;
+  pointer-events: none;
+  border-color: #BFBDBB !important;
+}
+
+.gamanet-btn-icon-neutral:disabled img, .gamanet-btn-icon-neutral.disabled img {
+  filter: invert(78%) sepia(43%) saturate(13%) hue-rotate(349deg) brightness(90%) contrast(90%);
+}
+
+.gamanet-btn-icon-neutral.sm {
+  width: 2rem;
+  height: 2rem;
+}
+
+.gamanet-btn-icon-neutral.xsm {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.gamanet-btn-icon-neutral img {
+  width: 1.5rem;
+  height: 1.5rem;
+  filter: invert(55%) sepia(6%) saturate(100%) hue-rotate(335deg) brightness(89%) contrast(90%);
+}
+
+.gamanet-btn-icon-neutral.sm img, .gamanet-btn-icon-neutral.xsm img {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.dropdown-wrap {
+  position: relative;
+}
+
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+.dropdown-menu {
+  box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.041) , 0 3px 20px -2px rgba(0, 0, 0, 0.247);
+  border: 0.0625rem solid #EAE9E9;
+  border-radius: 0.5rem;
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: 2.5rem !important;
+  padding: 0.5rem 0.75rem !important;
+  width: fit-content !important;
+}
+
+.dropdown-item > a {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  color: #817F7E;
+  text-decoration: none;
+}
+
+.dropdown-item img {
+  filter: invert(59%) sepia(2%) saturate(260%) hue-rotate(335deg) brightness(84%) contrast(89%);
+}
+
+.dropdown-item:hover {
+  background-color: #FDFCFC !important;
+}
+
+.dropdown-item:hover img {
+  filter: invert(60%) sepia(70%) saturate(2669%) hue-rotate(348deg) brightness(100%) contrast(92%);
+}
+
+.dropdown-item:hover > a {
+  color: #F48220;
+}
+
+.dropdown-item.dest:hover img {
+  filter: invert(39%) sepia(48%) saturate(5675%) hue-rotate(341deg) brightness(94%) contrast(98%);
+}
+
+.dropdown-item.dest:hover > a {
+  color: #EE3A3A;
+}
+
