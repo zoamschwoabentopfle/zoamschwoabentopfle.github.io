@@ -73,20 +73,21 @@
   <style>
     /* Floating navigation styles */
     .floating-nav {
-	    position: fixed;         /* or absolute, depending on your use case */
-  left: 50%;
-  top: 5px;                /* or another value of your choice */
-  transform: translateX(-50%);
-	    right: 50%;
+position: fixed;
+      top: 10px;
+      left: 10px;           /* pin to the top-left corner */
+      font-size: 0.8rem;
+      width: auto;           /* or specify a width if you like */
+      z-index: 9999;         /* ensure it's on top */
+
+    /* Ensure the select doesn't overflow on smaller screens */
       border: none; /* No border */
       box-shadow: none; /* No shadow */
-      font-size: 0.8rem;
-      width: auto;
     }
 
     .floating-nav label {
       font-size: 0.85rem;
-      margin-right: 8px;
+      margin-right: 4px;
     }
 
     /* Dropdown select box */
