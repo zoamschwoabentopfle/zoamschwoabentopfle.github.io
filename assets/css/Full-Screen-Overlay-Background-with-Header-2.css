@@ -1,0 +1,49 @@
+section {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  position: relative;
+  background-color: #3d3267;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+section::before {
+  background-image: url("water surrounded with brown trees 1920x1080px_wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.4;
+}
+
+Heading {
+  color: #fff;
+  isolation: isolate;
+}
+
+.Heading {
+  font-family: Playball, serif;
+  font-size: var(--fs-950);
+  color: rgb(224,180,68);
+  isolation: isolate;
+  text-shadow: #000000 4px 4px 8px;
+}
+
+:root {
+  --font-family: 'Poppins', sans-serif;
+  --font-Roboto: "Roboto", Helvetica, sans-serif, Tahoma, Verdana, Geneva;
+  --font-PlayBall: "Playball", sans-serif;
+  --fs-300: clamp(0.94rem, calc(0.92rem + 0.08vw), 0.98rem);
+  --fs-400: clamp(1.13rem, calc(1.06rem + 0.33vw), 1.31rem);
+  --fs-500: clamp(1.35rem, calc(1.21rem + 0.69vw), 1.75rem);
+  --fs-600: clamp(1.62rem, calc(1.37rem + 1.24vw), 2.33rem);
+  --fs-700: clamp(1.94rem, calc(1.54rem + 2.03vw), 3.11rem);
+  --fs-800: clamp(2.33rem, calc(1.7rem + 3.15vw), 4.14rem);
+  --fs-850: clamp(2.55rem, calc(1.7rem + 3.15vw), 5rem);
+  --fs-900: clamp(2.8rem, calc(1.85rem + 4.74vw), 5.52rem);
+  --fs-950: clamp(7rem, calc(1.85rem + 4.74vw), 6.52rem);
+}
+
