@@ -20,11 +20,13 @@ Cost-Effective Solutions:
 Recovered the domain (zoamschwoabentopfle.de) at a fraction of its listed price.
 Implemented email forwarding to enable a professional email address (kontakt@zoamschwoabentopfle.de) without additional hosting costs.
 Redesigned Business Cards: Synchronized with the website to create a cohesive brand identity.
+
 🛠️ Tech Stack
 Bootstrap Studio: Used to create a responsive, custom-tailored design with no templates for the final product.
 HTML5 & CSS3: For structured and semantic web development.
 Email Forwarding Techniques: Implemented cost-effective solutions for professional email setup.
 OCR Tools: Used to extract text from menu card images and build a custom editable menu table.
+
 📖 Project Journey
 The project began with a template-based design, which, while functional, didn’t align with the Swabian aesthetic required by the client. After receiving feedback, I restarted the project from scratch with a blank canvas in Bootstrap Studio, meeting and exceeding expectations.
 
@@ -65,6 +67,7 @@ Balancing Functionality and Aesthetics: A good website is as much about the visu
 Resourcefulness: Domain recovery, email forwarding, and OCR-based menu redesign demonstrated creative problem-solving.
 Iterative Design: Restarting the project after feedback was challenging but rewarding.
 Collaboration Matters: Working closely with the client ensured the project met and exceeded expectations.
+
 🌐 Connect With Me
 Feel free to reach out for collaborations or to discuss this project. I’m excited to take on new challenges with the same dedication and enthusiasm!
 
