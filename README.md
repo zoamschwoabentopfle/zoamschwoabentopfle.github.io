@@ -49,7 +49,6 @@ I’ve included the previous website design in this repository, not to diminish 
 
 Special thanks to:
 
-Mr. René for referring me and encouraging me throughout this journey.
 Mrs. Kirsten, the owner, for her trust, valuable feedback, and vision.
 The Zoam Schwoabetöpfle team for their unwavering support and collaboration.
 
